@@ -68,6 +68,8 @@ class DynamicCollage extends React.Component {
               EditButtonComponent={this.props.EditButtonComponent}
               editButtonPosition={this.props.editButtonPosition}
               editButtonIndent={this.props.editButtonIndent}
+              separatorWidth={this.props.separatorWidth}
+              separatorColor={this.props.separatorColor}
               matrix={matrix}
               direction={direction}
               longPressSensitivity={longPressSensitivity}
